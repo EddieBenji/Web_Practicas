@@ -48,6 +48,26 @@
             background-color:#E6C200;
         }
 
+        #android{
+            background-image: url('../img/modals/android_logo.jpg');
+            color:green;
+        }
+
+        #ios{
+             background-image: url('../img/modals/ios_logo.jpg');
+             color:white;
+        }
+
+        #cabri{
+            background-image: url('../img/modals/cabri_logo.gif');
+            color:#000;
+        }
+
+        #web_os{
+            background-image: url('../img/modals/webos_logo.png');
+           background-color:#0CB7F2;
+           color: white;
+        }
     </style>
 
 
@@ -87,13 +107,12 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acerca de  <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="tecnologias.html">Tecnologias Usadas</a></li>
-                        <li><a href="#">Publicaciones</a></li>
-                        <li><a href="#apps_hechas">Juegos de Aprendizaje</a></li>
+                        <li><a href="publicaciones.html">Publicaciones</a></li>
                         <li><a href="#about">Conócenos</a></li>
                     </ul>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contáctanos</a>
+                    <a href="index.html #contact">Contáctanos</a>
                 </li>
 
 
@@ -107,56 +126,61 @@
 <!-- Header -->
 <section id="tecnologias">
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="jumbotron tecnologia" id="android">
+                    <h2>Android</h2>
+                    <p>Una descripcion de lo que se ha hecho con Android, el boton es para mostrar mas información que se quiera
+                        decir sobre la tecnologia.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#androidModal">
+                        Leer Mas
+                    </button>
+                </div>
 
-        <div class="jumbotron tecnologia" id="android">
-            <h2>Android</h2>
-            <p>Una descripcion de lo que se ha hecho con Android, el boton es para mostrar mas información que se quiera
-                decir sobre la tecnologia.
-            </p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#androidModal">
-                Leer Mas
-            </button>
-        </div>
+                <div class="jumbotron tecnologia" id="ios">
+                    <h2>iOS</h2>
+                    <p>Una descripcion de lo que se ha hecho con iOS, el boton es para mostrar mas información que se quiera
+                        decir sobre la tecnologia.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#iosModal">
+                        Leer Mas
+                    </button>
+                </div>
 
-        <div class="jumbotron tecnologia" id="ios">
-            <h2>iOS</h2>
-            <p>Una descripcion de lo que se ha hecho con iOS, el boton es para mostrar mas información que se quiera
-                decir sobre la tecnologia.
-            </p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#iosModal">
-                Leer Mas
-            </button>
-        </div>
+                <div class="jumbotron tecnologia " id="cabri">
+                    <h2>Cabri</h2>
+                    <p>Una descripcion de lo que se ha hecho con Cabri, el boton es para mostrar mas información que se quiera
+                        decir sobre la tecnologia.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cabriModal">
+                        Leer Mas
+                    </button>
+                </div>
 
-        <div class="jumbotron tecnologia " id="cabri">
-            <h2>Cabri</h2>
-            <p>Una descripcion de lo que se ha hecho con Cabri, el boton es para mostrar mas información que se quiera
-                decir sobre la tecnologia.
-            </p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#cabriModal">
-                Leer Mas
-            </button>
-        </div>
+                <div class="jumbotron tecnologia " id="plataforma">
+                    <h2>Plataformas Virtuales en Línea</h2>
+                    <p>Una descripcion de lo que se hizo con las plataformas en linea, el boton es para mostrar mas información
+                        que se quiere decir sobre la tecnologia.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#plataformaModal">
+                        Leer Mas
+                    </button>
+                </div>
 
-        <div class="jumbotron tecnologia " id="plataforma">
-            <h2>Plataformas Virtuales en Línea</h2>
-            <p>Una descripcion de lo que se hizo con las plataformas en linea, el boton es para mostrar mas información
-                que se quiere decir sobre la tecnologia.
-            </p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#plataformaModal">
-                Leer Mas
-            </button>
-        </div>
+                <div class="jumbotron tecnologia" id="web_os">
+                    <h2>Web Os</h2>
+                    <p>Una descripcion de lo que se ha hecho con Web 0S, el boton es para mostrar mas información que se quiera
+                        decir sobre la tecnologia
+                    </p>
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#web_osModal">
+                        Leer Mas
+                    </button>
+                </div>
 
-        <div class="jumbotron tecnologia" id="web_os">
-            <h2>Web Os</h2>
-            <p>Una descripcion de lo que se ha hecho con Web 0S, el boton es para mostrar mas información que se quiera
-                decir sobre la tecnologia
-            </p>
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#web_osModal">
-                Leer Mas
-            </button>
+            </div>
         </div>
+                
     </div>
 </section>
 
