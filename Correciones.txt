@@ -1,0 +1,17 @@
+-Corregir imagenes con de la pagina con un dispositivo atras de fondo
+	1) Primera Imagen con el de una tablet
+	2) Segunda Imagen con el de Una tablet
+	3)Tercera imagen con el de un iphone
+	4) 4ta imagen celular, checar en manual
+	5) 5ta Corregir fondo imagen
+	6) 6ta Corregir tamaño de imagen y el fondo de un celular, checar en manual.
+	7) Checar nuevo articulo.
+-Cambiar las "aplicaciones hechas"  por un carusell
+-Agregar un apartado fr Personal
+-Agregar un apartado de planeacion o proyecto o desarrollo
+- Cambiar en la pagina "tecnologias.html" "plataformas en linea" por herramienta "scratch"
+-En la pagina publicaciones agregar la portada de la revista donde se publico el articulo
+-Cambiar en la pagina "publicaciones.html" en los modales INTRODUCCION > ABSTRACT
+-Cambiar en la pagina "publicaciones.html" en los modales LINK > DOCUMENTO COMPLETO
+-Cambiar el fondo de la pagina "publicaciones.html"
+-Agregar video de tecnologias matematicas para niños de secu, ver donde quedara
