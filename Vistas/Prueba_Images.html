@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+
+    <style type="text/css">
+        .holder {
+            width: 1000px;
+            height: 1000px;
+            position: relative;
+            display: block;
+        }
+
+        .main_image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            width: 85%;
+        }
+
+        .watermark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            width: 57.2%;
+            height: 38%;
+            margin-top: 2.8%;
+            margin-left: 13.8%;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<div class="holder">
+    <!--Con este archivo voy poniendo las imágenes, ya que quedaron
+    traslapadas, imprimo la pantalla y es lo que pongo en los modales.-->
+
+    <img src="../img/juegos/fracciones1.png" class="main_image">
+    <img src="../img/juegos/quitaypon1.png" class="watermark">
+</div>
+</body>
+</html>
