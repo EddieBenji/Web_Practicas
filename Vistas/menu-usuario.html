@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Applicaciones en la UADY</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style type="text/css">
+        #textTitle {
+            font-size: 100%;
+        }
+
+        .intro-text {
+            font-size: 60%;
+        }
+
+        #menu-usuario{
+            margin-top:2%;
+            margin-left: 15%;
+        }
+
+
+    </style>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a id="textTitle" class="navbar-brand" href="index.html">
+                REGRESAR A INICIO</a>
+
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <!--<li class="page-scroll">-->
+                <!--<a href="#apps_hechas">Applicaciones hechas</a>-->
+                <!--</li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acerca de  <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="tecnologias.html">Tecnologias Usadas</a></li>
+                        <li><a href="publicaciones.html">Publicaciones</a></li>
+                        <li><a href="personal.html">Personal</a></li>
+                        <li><a href="proyectos.html">Proyectos en Desarrollo</a></li>
+                        <!--<li><a href="#about">Conócenos</a></li>-->
+                    </ul>
+                </li>
+                <!--<li class="page-scroll">-->
+                <!--<a href="../Vistas/index.html">Contáctanos</a>-->
+                <!--</li>-->
+
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<section id="menu-usuario">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <ul id="myTab" class="nav nav-tabs">
+
+                    <li class="dropdown active">
+                        <a href="#" id="usuarios" class="dropdown-toggle"
+                           data-toggle="dropdown">Usuarios <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="usuarios">
+                            <li><a href="#alta-usuario" tabindex="-1" data-toggle="tab">
+                                Registrar Usuario</a>
+                            </li>
+                            <li><a href="#ver-usuarios" tabindex="-1" data-toggle="tab">
+                                Ver Usuarios</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" id="publicaciones" class="dropdown-toggle"
+                           data-toggle="dropdown">Publicaciones <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="publicaciones">
+                            <li><a href="#alta-publicacion" tabindex="-1" data-toggle="tab">
+                                Registrar Publicacion</a>
+                            </li>
+                            <li><a href="#ver-publicacion" tabindex="-1" data-toggle="tab">
+                                Ver Publicaciones</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" id="aplicaciones" class="dropdown-toggle"
+                           data-toggle="dropdown">Aplicación <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="aplicaciones">
+                            <li><a href="#alta-aplicacion" tabindex="-1" data-toggle="tab">
+                                Registrar Aplicación</a>
+                            </li>
+                            <li><a href="#ver-aplicacion" tabindex="-1" data-toggle="tab">
+                                Ver Aplicaciones</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" id="proyectos" class="dropdown-toggle"
+                           data-toggle="dropdown">Proyectos <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="proyectos">
+                            <li><a href="#alta-proyecto" tabindex="-1" data-toggle="tab">
+                                Registrar Proyecto</a>
+                            </li>
+                            <li><a href="#ver-proyecto" tabindex="-1" data-toggle="tab">
+                                Ver Proyectos</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown">
+                        <a href="#" id="personal" class="dropdown-toggle"
+                           data-toggle="dropdown">Publicaciones <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="personal">
+                            <li><a href="#alta-personal" tabindex="-1" data-toggle="tab">
+                                Registrar Personal</a>
+                            </li>
+                            <li><a href="#ver-personal" tabindex="-1" data-toggle="tab">
+                                Ver Personal</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="alta-usuario">
+                        <form role="form">
+                            <div class="form-group col-lg-8">
+                                <label for="nombre">Nombre de Usuairo</label>
+                                <input type="text" class="form-control" name="nombre"
+                                       placeholder="Nombre de Usuario" required>
+                            </div>
+
+                            <br/>
+                            <div class="form-group col-lg-8">
+                                <label for="nombre_usuario">Correo</label>
+                                <input type="email" class="form-control" id="nombre_usuario"
+                                       placeholder="" required>
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-8">
+                                <label for="contrasena">Contraseña</label>
+                                <input type="password" class="form-control" id="contrasena"
+                                        required>
+                            </div>
+
+                            <div class="form-group col-lg-8">
+                                <label for="contrasenaconfirmacion">Confirmar Contraseña</label>
+                                <input type="password" class="form-control" id="contrasenaconfirmacion"
+                                       required>
+                            </div>
+
+
+                            <div class="col-lg-10">
+                                <button type="submit" class="btn btn-primary">Registrar Usuario</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="tab-pane fade" id="ver-usuarios">
+                        <table>
+                            Tabla de usuarios.
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="alta-publicacion">
+                            <form role="form">
+                                <div class="form-group col-lg-10">
+                                    <label for="nombre">Titulo de Publicación</label>
+                                    <input type="text" class="form-control" name="nombre"
+                                           placeholder="Nombre de Publicación">
+                                </div>
+                                <br/>
+                                <div class="form-group col-lg-10">
+                                    <label for="comment">Abstract:</label>
+                                    <textarea class="form-control" rows="7" id="comment"></textarea>
+                                </div>
+                                <br/>
+                                <div class="form-group col-lg-10">
+                                    <label for="autores">Autores</label>
+                                    <input type="text" class="form-control" id="autores"
+                                           placeholder="Nombre de Autores Separados por comas">
+                                </div>
+                                <br/>
+                                <div class="form-group col-lg-10">
+                                    <label for="correos">Correos</label>
+                                    <input type="text" class="form-control" id="correos"
+                                           placeholder="correos separados por comas">
+                                </div>
+                                <br>
+
+                                <div class="form-group col-lg-10">
+                                    <label for="inputfile">Selecione el Articulo</label>
+                                    <input type="file" id="inputfile">
+
+                                </div>
+                                <br/>
+                                <div class="form-group col-lg-10">
+                                    <label for="inputimage">Selecione la imagen del  Articulo</label>
+                                    <input type="file" id="inputimage">
+
+                                </div>
+
+
+                                <br/>
+
+                                <div class="col-lg-10">
+                                    <button type="submit" class="btn btn-primary">Registrar Publicación</button>
+                                </div>
+
+                            </form>
+                    </div>
+                    <div class="tab-pane fade" id="ver-publicacion">
+                        <table>
+                            publicacion
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="alta-aplicacion">
+                        <form role="form">
+                            <div class="form-group col-lg-10">
+                                <label for="nombre">Nombre de Aplicación</label>
+                                <input type="text" class="form-control" name="nombre"
+                                       placeholder="Nombre de Articulo">
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="descripcion">Descripción</label>
+                                <textarea class="form-control" rows="7" id="descripcion"></textarea>
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="autores">Autores</label>
+                                <input type="text" class="form-control" name="autores"
+                                       placeholder="Nombre de Autores Separados por comas">
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="fecha">Fecha</label>
+                                <input type="date" class="form-control" id="fecha"
+                                       placeholder="">
+                            </div>
+                            <br>
+
+                            <div class="form-group col-lg-10">
+                                <label for="inputapp">Selecione el Juego</label>
+                                <input type="file" id="inputapp">
+
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="inputmanual">Selecione el Manual del Juego</label>
+                                <input type="file" id="inputmanual">
+
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <label for="inputimage1">Selecione la Imagen del Juego 1 </label>
+                                <input type="file" id="inputimage1">
+
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <label for="inputimage2">Selecione la Imagen del Juego 2 </label>
+                                <input type="file" id="inputimage2">
+
+                            </div>
+
+                            <br/>
+
+                            <div class="col-lg-10">
+                                <button type="submit" class="btn btn-primary">Registrar Aplicación</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="tab-pane fade" id="ver-aplicacion">
+                        <table>
+                            aplicacion
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="alta-proyecto">
+                        <form role="form">
+                            <div class="form-group col-lg-10">
+                                <label for="nombre">Nombre del Proyecto</label>
+                                <input type="text" class="form-control" name="nombre"
+                                       placeholder="Nombre del Proyecto">
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="descripcion">Descripción:</label>
+                                <textarea class="form-control" rows="7" name="descripcion"></textarea>
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="autores">Autores</label>
+                                <input type="text" class="form-control" id="autores"
+                                       placeholder="Nombre de Autores Separados por comas">
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="correos">Correos</label>
+                                <input type="text" class="form-control" id="correos"
+                                       placeholder="Correos separados por comas">
+                            </div>
+                            <br>
+
+                            <div class="form-group col-lg-10">
+                                <label for="inputfile">Selecione el Documento del Proyecto</label>
+                                <input type="file" id="inputfile">
+
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="inputimage">Selecione la imagen del Proyecto</label>
+                                <input type="file" names="inputimage">
+
+                            </div>
+                            <div class="form-group col-lg-10">
+                                <label for="periodoini">Periodo de Inicio</label>
+                                <input type="date" class="form-control" id="periodoini"
+                                       placeholder="">
+                            </div>
+                            <div class="form-group col-lg-10">
+                                <label for="periodofin">Periodo de Final</label>
+                                <input type="date" class="form-control" id="periodofin"
+                                       placeholder="">
+                            </div>
+
+
+                            <br/>
+
+                            <div class="col-lg-10">
+                                <button type="submit" class="btn btn-primary">Registrar Publicación</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="tab-pane fade" id="ver-proyecto">
+                        <table>
+                            proyecto
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="alta-personal">
+                        <form role="form">
+                            <div class="form-group col-lg-8">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" name="nombre"
+                                       placeholder="Nombre de Usuario" required>
+                            </div>
+
+                            <br/>
+                            <div class="form-group col-lg-8">
+                                <label for="correo">Correo</label>
+                                <input type="email" class="form-control" name="correo"
+                                       placeholder="" required>
+                            </div>
+                            <br/>
+                            <div class="form-group col-lg-10">
+                                <label for="descripcionrapida">Descripción Rapida:</label>
+                                <textarea class="form-control" rows="7" id="descripcionrapida"></textarea>
+                            </div>
+                            <div class="form-group col-lg-10">
+                                <label for="informacion">Información Academica:</label>
+                                <textarea class="form-control" rows="7" id="informacion"></textarea>
+                            </div>
+
+
+                            <div class="form-group col-lg-10">
+                                <label for="inputimage">Selecione la Foto del Personal</label>
+                                <input type="file" names="inputimage">
+
+                            </div>
+
+
+                            <div class="col-lg-10">
+                                <button type="submit" class="btn btn-primary">Registrar Usuario</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="tab-pane fade" id="ver-personal">
+                        <table>personal</table>
+
+                    </div>
+
+                </div>
+                <script>
+                    $(function () {
+                        $('#myTab li:eq(1) a').tab('show');
+                    });
+                </script>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Dirección</h3>
+
+
+                    <p>Anillo Periférico Norte, <br/>Tablaje Cat. 13615,<br/>
+                        Colonia Chuburná Hidalgo Inn,<br/> Mérida Yucatán.</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Visita nuestras redes sociales!</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Autores:</h3>
+
+                    <p>Eduardo Canché</p>
+
+                    <p>Abner Collí</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; UADY 2015
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visble-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
+
+
+
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="../js/classie.js"></script>
+<script src="../js/cbpAnimatedHeader.js"></script>
+
+
+<!-- Custom Theme JavaScript -->
+<script src="../js/freelancer.js"></script>
+
+</body>
+
+</html>

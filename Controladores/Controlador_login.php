@@ -17,7 +17,7 @@ if ($result->num_rows >0) {
 
 
     }
-    header('location: ../Vistas/alta-articulo.html');
+    header('location: ../Vistas/menu-usuario.html');
 
 } else {
     header('location: ../Vistas/login.php?error=1');
